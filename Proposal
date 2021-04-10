@@ -1,0 +1,38 @@
+# Proposal
+
+## What will (likely) be the title of your project?
+
+
+## In just a sentence or two, summarize your project. (E.g., "A website that lets you buy and sell stocks.")
+
+For my project I.m going to make a music theory quiz game.
+
+## In a paragraph or more, detail your project. What will your software do? What features will it have? How will it be executed?
+
+My idea for the final project is to make a music theory quiz game. My goal for the final project is to create a game that makes learning music theory fun. 
+The game will be built around the circle of filths, the notes that make up chords, and the notes in scales. The program will prompt the user to select a agme mode.
+once a game mode is chosen the program will ask the player random questions depending on which game mode the user has chosen.
+Then the program will count the number of correct responses and give the user a score at the end of the game.
+
+
+## In the world of software, most everything takes longer to implement than you expect. And so it's not uncommon to accomplish less in a fixed amount of time than you hope.
+
+### In a sentence (or list of features), define a GOOD outcome for your final project. I.e., what WILL you accomplish no matter what?
+
+an opperating game that with one game mode based around the circle of filths.
+
+### In a sentence (or list of features), define a BETTER outcome for your final project. I.e., what do you THINK you can accomplish before the final project's deadline?
+
+a game with two game modes based around the cirlce of filths, the notes that make up chords, and a working score board.
+
+### In a sentence (or list of features), define a BEST outcome for your final project. I.e., what do you HOPE to accomplish before the final project's deadline?
+
+a game with three working gmae modes based on the circle of filths, the notes in a chord, and the notes in scales with a working scoreboard and leader board.
+
+## In a paragraph or more, outline your next steps. What new skills will you need to acquire? What topics will you need to research?
+
+To successfully make this game I will need to learn how learn how to prompt the user random questions, count the number of correct and incoreect responses.
+I will need to learn how to store and display the scores from previous games, and I will need to learn how to make a more user frendly enviornment for the game to be played in.
+I will need to research different quiz games to see how they opperate, and to see what I can learn from them. I will also need to research the music theory consepts to make sure that my game is accurate.
+
+
