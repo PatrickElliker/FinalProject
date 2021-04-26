@@ -1,0 +1,151 @@
+#references:
+#https://dev.to/mindninjax/how-to-build-a-quiz-game-in-python-10ik
+#https://www.youtube.com/watch?v=P6azEyNIQDQ
+
+
+import time
+import sys
+
+from Questions1 import quiz
+
+from Questions2 import test
+
+from Questions3 import test3
+
+#Chords game mode
+def check_ans(question, ans, attempts, score):
+    if quiz[question]['answer'].lower() == ans.lower():
+        print(f"Correct Answer! \nYour score is {score + 1}!\n")
+        return True
+    else:
+        print(f"Wrong Answer :( \nYou have {attempts - 1} left!\n")
+        return False
+
+def GameOne():
+    score = 0
+    print("Thank you for choosing chord mode! Please format your answers like this: A Ab Am A# A#dim")
+    time.sleep(1)
+    print("Lets begin!")
+    time.sleep(1)
+    for question in quiz:
+        attempts = 2
+        while attempts > 0:
+            print(quiz[question]['question'])
+            answer = input("Enter Answer: ")
+            check = check_ans(question, answer, attempts, score)
+            if check:
+                score += 1
+                break
+            attempts -= 1
+        else: print("The correct answer is:", quiz[question]['answer'],"\nBetter luck next time!\n")
+
+    print(f"Your final score is {score}! \nThanks for playing :D")
+    time.sleep(2)
+    Menu()
+
+
+#Keys game mode
+def check_ans2(question, ans, attempts, score):
+    if test[question]['answer'].lower() == ans.lower():
+        print(f"Correct Answer! \nYour score is {score + 1}!\n")
+        return True
+    else:
+        print(f"Wrong Answer :( \nYou have {attempts - 1} left!\n")
+        return False
+
+def GameTwo():
+    score = 0
+    print("Thank you for choosing Key mode! Please format your answers like this: A Ab Am A# A#dim")
+    time.sleep(1)
+    print("Lets begin!")
+    time.sleep(1)
+    for question in test:
+        attempts = 2
+        while attempts > 0:
+            print(test[question]['question'])
+            answer = input("Enter Answer: ")
+            check = check_ans2(question, answer, attempts, score)
+            if check:
+                score += 1
+                break
+            attempts -= 1
+        else: print("The correct answer is:", test[question]['answer'],"\nBetter luck next time!\n")
+
+    print(f"Your final score is {score}! \nThanks for playing :D")
+    time.sleep(2)
+    Menu()
+
+
+#Sclaes game mode
+def check_ans3(question, ans, attempts, score):
+    if test3[question]['answer'].lower() == ans.lower():
+        print(f"Correct Answer! \nYour score is {score + 1}!\n")
+        return True
+    else:
+        print(f"Wrong Answer :( \nYou have {attempts - 1} left!\n")
+        return False
+
+def GameThree():
+    score = 0
+    print("Thank you for choosing scale mode! Please format your answers like this: A Ab Am A# A#dim")
+    print("Please list notes in ascending order.")
+    time.sleep(1)
+    print("Lets begin!")
+    time.sleep(1)
+    for question in test3:
+        attempts = 2
+        while attempts > 0:
+            print(test3[question]['question'])
+            answer = input("Enter Answer: ")
+            check = check_ans3(question, answer, attempts, score)
+            if check:
+                score += 1
+                break
+            attempts -= 1
+        else: print("The correct answer is:", test3[question]['answer'],"\nBetter luck next time!\n")
+
+
+    print(f"Your final score is {score}! \nThanks for playing :D")
+    time.sleep(2)
+    Menu()
+
+#quit function
+
+def Quit():
+    print("Thank you for playing!")
+    time.sleep(2)
+    sys.exit()
+
+
+#menu system
+def Menu():
+    print(" ")
+    print("Welcome the Music Query! Are you ready to put your Knowledge to the test?")
+    print(" ")
+    time.sleep(1)
+    print("                        ******* Main Menu *******")
+
+
+    choice = input("""
+                        Please select a game mode:
+                        
+                        A: Chords
+                        B: Keys
+                        C: Scales
+                        D: quit
+                        
+    """)
+
+    if choice == "A" or choice == "a":
+        GameOne()
+    elif choice == "B" or choice == "b":
+        GameTwo()
+    elif choice == "C" or choice == "c":
+        GameThree()
+    elif choice == "D" or choice == "d":
+        Quit()
+    else:
+        print("Error: Please enter a valid option")
+        Menu()
+
+Menu()
