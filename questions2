@@ -1,0 +1,42 @@
+test = {
+    1 : {
+        "question" : "What is the forth chord in the key of A?",
+        "answer" : "D"
+    },
+    2: {
+        "question": "what is the third chord in the key of C?",
+        "answer": "Em"
+    },
+    3: {
+        "question": "What are the first, forth, and filth chords in the key of E?",
+        "answer": "E A B"
+    },
+    4: {
+        "question": "What is the filth chord in the key of F?",
+        "answer": "C"
+    },
+    5: {
+        "question": "What is the filth chord in the key of Bm?",
+        "answer": "F#m"
+    },
+    6: {
+        "question": "What is the filth chord for the key of D?",
+        "answer": "A"
+    },
+    7: {
+        "question": "What are the second and third chords in the key of C?",
+        "answer": "Dm Em"
+    },
+    8: {
+        "question": "If a song contains the chords F#, E, B what key is it in?",
+        "answer": "B"
+    },
+    9: {
+        "question": "What is the Third chord for the key of Am?",
+        "answer": "C"
+    },
+    10: {
+        "question": "What are all the chords in the key of G?",
+        "answer": "G Am Bm C D Em F#dim"
+    },
+}
