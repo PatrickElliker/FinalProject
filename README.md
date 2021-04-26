@@ -12,3 +12,6 @@ TODO
 ## Do you have any questions of your own?
 Is this project too abitious or not ambitious enough?
 TODO
+
+## Link to the youtube video fo the project
+https://youtu.be/Gz40kxUq5Rs
