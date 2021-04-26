@@ -1,0 +1,42 @@
+quiz = {
+    1 : {
+        "question" : "What notes make up a C chord?",
+        "answer" : "C E G"
+    },
+    2: {
+        "question": "what is the third note for a B chord?",
+        "answer": "D#"
+    },
+    3: {
+        "question": "What are the notes that make up a D chord?",
+        "answer": "D F# A"
+    },
+    4: {
+        "question": "What is the filth note in the F chord?",
+        "answer": "C"
+    },
+    5: {
+        "question": "What is the third note in the G chord?",
+        "answer": "B"
+    },
+    6: {
+        "question": "What is the filth note for the E Chord?",
+        "answer": "B"
+    },
+    7: {
+        "question": "What is the root note of E?",
+        "answer": "E"
+    },
+    8: {
+        "question": "What notes make up a A chord?",
+        "answer": "A C# E"
+    },
+    9: {
+        "question": "What is the Third note for the F Chord?",
+        "answer": "A"
+    },
+    10: {
+        "question": "What is the filth note for the B Chord?",
+        "answer": "F#"
+    },
+}
