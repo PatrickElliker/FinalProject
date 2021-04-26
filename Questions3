@@ -1,0 +1,42 @@
+test3 = {
+    1 : {
+        "question" : "What note comes after C in the C major scale?",
+        "answer" : "D"
+    },
+    2: {
+        "question": "what are the first three notes of the G major Scale?",
+        "answer": "G A B"
+    },
+    3: {
+        "question": "What are the last three notes for the D major scale?",
+        "answer": "B C# D"
+    },
+    4: {
+        "question": "What is the filth note in the F minor scale?",
+        "answer": "C"
+    },
+    5: {
+        "question": "What are the notes of the A minor scale?",
+        "answer": "A B C D E F G A"
+    },
+    6: {
+        "question": "Which of these is not in the E major scale?: A B E F",
+        "answer": "F"
+    },
+    7: {
+        "question": "What are the first three notes of the F minor scale?",
+        "answer": "F G Ab"
+    },
+    8: {
+        "question": "What which of these note is in the B major Scale?: A F Bb E",
+        "answer": "E"
+    },
+    9: {
+        "question": "how many notes make up a scale?",
+        "answer": "8"
+    },
+    10: {
+        "question": "What are all the notes of the C major scale?",
+        "answer": "C D E F G A B C"
+    },
+}
